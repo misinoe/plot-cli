@@ -12,7 +12,8 @@ program
     const command: string = cmd.args[0];
     switch (command) {
       case 'gen':
-        console.log(plot.generatePlot());
+        const output = JSON.stringify(plot.generatePlot(), null, '    ');
+        console.log(output);
         break;
       default:
         break;

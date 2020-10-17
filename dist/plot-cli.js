@@ -30,7 +30,8 @@ commander_1.program
     var command = cmd.args[0];
     switch (command) {
         case 'gen':
-            console.log(plot.generatePlot());
+            var output = JSON.stringify(plot.generatePlot(), null, '    ');
+            console.log(output);
             break;
         default:
             break;
