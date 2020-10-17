@@ -1,5 +1,5 @@
 {
-  "name": "plot-cli",
+  "name": "@misinoe/plot-cli",
   "version": "1.0.0",
   "main": "dist/plot-cli",
   "bin": {
