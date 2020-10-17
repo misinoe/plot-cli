@@ -1,0 +1,20 @@
+{
+  "name": "plot-cli",
+  "version": "1.0.0",
+  "main": "dist/plot-cli",
+  "bin": {
+    "plot": "bin/plot-cli"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "misinoe <misinoe.t@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.11.10",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "commander": "^6.1.0"
+  }
+}
