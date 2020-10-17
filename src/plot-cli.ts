@@ -3,8 +3,6 @@ const packageJson = require('../package.json');
 import { program } from 'commander';
 import * as plot from './plot';
 
-
-
 program
   .version(packageJson.version)
   .command('gen')
