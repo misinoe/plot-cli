@@ -6,7 +6,7 @@
       "dist"
   ],
   "bin": {
-    "plot": "dist/plot-cli"
+    "plot": "dist/plot-cli.js"
   },
   "scripts": {
     "build": "tsc"
