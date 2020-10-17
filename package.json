@@ -1,7 +1,10 @@
 {
   "name": "@misinoe/plot-cli",
   "version": "1.0.0",
-  "main": "dist/plot-cli",
+  "main": "dist/index.js",
+  "files": [
+      "dist"
+  ],
   "bin": {
     "plot": "bin/plot-cli"
   },
